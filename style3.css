@@ -1,0 +1,124 @@
+/* pagina referente ao project.html */
+body {
+    color: white;
+    background-color: rgb(92, 92, 92);
+    font-family: Arial, Helvetica, sans-serif;
+  
+  }
+
+  header img{
+    width: 942px;
+    
+  }
+
+  .center {
+    text-align: center;
+    display: flex;
+    justify-content: center;
+  }
+  
+  
+  h1 {
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   
+  }
+  
+
+  nav a:hover {
+    color: red;
+  }
+  
+  .nav-button{
+    border: 0;
+    border-radius: 4px;
+    padding: 8px;
+    background-color: white;
+    margin: 8px;
+    cursor: pointer;
+  }
+  
+  
+  .nav-button i{
+    color: white;
+  }
+  
+  .overlay{
+    width: 0;
+    height: 100%;
+    background-color: rgba(0,0,0.9);
+    z-index: 9;
+    position: fixed;
+    left: 0;
+    top: 0;
+    overflow: hidden;
+    transition: all 0.5s;
+  }
+  
+  .overlay-content{
+    position: relative;
+    top: 25%;
+    width: 100%;
+    text-align: center;
+    margin-top: 30px;
+  }
+  .overlay a{
+    padding: 8px;
+    text-decoration: none;
+    color: #818181;
+    display: block;
+    font-size: 25px;
+    transition: 0.3s;
+  }
+  
+  .overlay a:hover , .overlay a:focus {
+    color: #f1f1f1;
+  }
+  
+  .overlay .closebtn {
+    position: absolute;
+    top: 25px;
+    right: 45px;
+    font-size: 60px;
+  }
+   
+  html {
+    font-family: sans-serif;
+  }
+
+  table {
+    border-collapse: collapse;
+    border: 2px solid rgb(0, 0, 0);
+    letter-spacing: 1px;
+    font-size: 0.8rem;
+  }
+  
+  td, th {
+    border: 1px solid rgb(190,190,190);
+    padding: 10px 20px;
+  }
+  
+  th {
+    background-color: rgb(235,235,235);
+  }
+  
+  td {
+    text-align: center;
+  }
+  
+  tr:nth-child(even) td {
+    background-color: rgb(36, 36, 36);
+  }
+  
+  tr:nth-child(odd) td {
+    background-color: rgb(36, 36, 36);
+  }
+  
+  caption {
+    padding: 10px;
+  }
+  
+  
+    
